@@ -1,8 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28711.60
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Unofficial.DotSpatial.Projections", "Unofficial.DotSpatial.Projections\Unofficial.DotSpatial.Projections.fsproj", "{f7740970-e37e-4f4d-8b7d-7b4fbc64f45f}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unoffical.DotSpatial.Projections", "Unofficial.DotSpatial.Projections\Unoffical.DotSpatial.Projections.csproj", "{7272CFC9-2E1C-43F7-BE6F-EFAE6E7D1D7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,12 +10,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{f7740970-e37e-4f4d-8b7d-7b4fbc64f45f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{f7740970-e37e-4f4d-8b7d-7b4fbc64f45f}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{f7740970-e37e-4f4d-8b7d-7b4fbc64f45f}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{f7740970-e37e-4f4d-8b7d-7b4fbc64f45f}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7272CFC9-2E1C-43F7-BE6F-EFAE6E7D1D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7272CFC9-2E1C-43F7-BE6F-EFAE6E7D1D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7272CFC9-2E1C-43F7-BE6F-EFAE6E7D1D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7272CFC9-2E1C-43F7-BE6F-EFAE6E7D1D7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B34C9EE1-50F3-4C28-87C2-9E28412EF6E8}
 	EndGlobalSection
 EndGlobal
