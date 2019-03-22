@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="AuthorityCodes\epsg.ds" />
+    <None Remove="XML\datums.xml.ds" />
+    <None Remove="**\*.lla.ds" />
+    <None Remove="**\*.gsb.ds" />
+    <None Remove="**\*.dat.ds" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AuthorityCodes\epsg.ds" />
+    <EmbeddedResource Include="XML\datums.xml.ds" />
+    <EmbeddedResource Include="**\*.lla.ds" />
+    <EmbeddedResource Include="**\*.gsb.ds" />
+    <EmbeddedResource Include="**\*.dat.ds" />
+  </ItemGroup>
+
+</Project>
