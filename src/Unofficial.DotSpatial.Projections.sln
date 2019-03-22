@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28711.60
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unoffical.DotSpatial.Projections", "Unofficial.DotSpatial.Projections\Unoffical.DotSpatial.Projections.csproj", "{7272CFC9-2E1C-43F7-BE6F-EFAE6E7D1D7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unofficial.DotSpatial.Projections", "Unofficial.DotSpatial.Projections\Unofficial.DotSpatial.Projections.csproj", "{7272CFC9-2E1C-43F7-BE6F-EFAE6E7D1D7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
