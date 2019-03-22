@@ -21,7 +21,7 @@ namespace DotSpatial.Projections
             }
             using (var datumStream = File.Exists(fileName)
                 ? File.OpenRead(fileName)
-                : DeflateStreamReader.DecodeEmbeddedResource("DotSpatial.Projections.XML.datums.xml.ds"))
+                : DeflateStreamReader.DecodeEmbeddedResource("Unofficial.DotSpatial.Projections.XML.datums.xml.ds"))
             {
 
                 var xmlSerializer = new XmlSerializer(typeof(DatumEntries));

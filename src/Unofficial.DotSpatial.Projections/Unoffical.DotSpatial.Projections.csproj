@@ -12,16 +12,16 @@
   <ItemGroup>
     <None Remove="AuthorityCodes\epsg.ds" />
     <None Remove="XML\datums.xml.ds" />
-    <None Remove="**\*.lla.ds" />
-    <None Remove="**\*.gsb.ds" />
-    <None Remove="**\*.dat.ds" />
+    <None Remove="**\*.ds.lla" />
+    <None Remove="**\*.ds.gsb" />
+    <None Remove="**\*.ds.dat" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AuthorityCodes\epsg.ds" />
     <EmbeddedResource Include="XML\datums.xml.ds" />
-    <EmbeddedResource Include="**\*.lla.ds" />
-    <EmbeddedResource Include="**\*.gsb.ds" />
-    <EmbeddedResource Include="**\*.dat.ds" />
+    <EmbeddedResource Include="**\*.ds.lla" />
+    <EmbeddedResource Include="**\*.ds.gsb" />
+    <EmbeddedResource Include="**\*.ds.dat" />
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>
