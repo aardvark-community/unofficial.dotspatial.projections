@@ -4,6 +4,8 @@ VisualStudioVersion = 16.0.28711.60
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unofficial.DotSpatial.Projections", "Unofficial.DotSpatial.Projections\Unofficial.DotSpatial.Projections.csproj", "{7272CFC9-2E1C-43F7-BE6F-EFAE6E7D1D7C}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Demo", "Demo\Demo.fsproj", "{D4BC454D-57E6-46AC-B07C-DF719EDC0EB0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,10 @@ Global
 		{7272CFC9-2E1C-43F7-BE6F-EFAE6E7D1D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7272CFC9-2E1C-43F7-BE6F-EFAE6E7D1D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7272CFC9-2E1C-43F7-BE6F-EFAE6E7D1D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4BC454D-57E6-46AC-B07C-DF719EDC0EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BC454D-57E6-46AC-B07C-DF719EDC0EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BC454D-57E6-46AC-B07C-DF719EDC0EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BC454D-57E6-46AC-B07C-DF719EDC0EB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

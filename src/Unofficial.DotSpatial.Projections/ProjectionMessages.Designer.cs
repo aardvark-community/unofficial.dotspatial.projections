@@ -39,7 +39,7 @@ namespace DotSpatial.Projections {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DotSpatial.Projections.ProjectionMessages", typeof(ProjectionMessages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Unofficial.DotSpatial.Projections.ProjectionMessages", typeof(ProjectionMessages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
